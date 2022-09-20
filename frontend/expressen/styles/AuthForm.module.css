@@ -1,0 +1,45 @@
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    background-color: rgb(231, 230, 230);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 10rem;
+    height: 2rem;
+}
+
+.labels{
+
+    width: 7rem;
+}
+
+.forum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unit{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: white;
+    width: 4rem;
+    height: 2rem;
+}

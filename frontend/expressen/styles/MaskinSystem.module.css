@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+}
+.rightResult{
+  background-color: yellow;
+  width: 75vw;
+  height: 90vh;
+}
+.leftNav{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  background-color: blue;
+  width: 25vw;
+  height: 90vh;
+}
+.mr2Bottum{
+margin-bottom: 2rem;
+}
+
+.filterItme{
+  margin-bottom: 1rem;
+  color: red;
+}
+
+.topNav{
+  background-color: white;
+  width: 100vh;
+  height: 10vh;
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "backslags",
+  "info": {
+    "singularName": "backslag",
+    "pluralName": "backslags",
+    "displayName": "backslag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "olja": {
+      "type": "string"
+    },
+    "modelNumer": {
+      "type": "string"
+    },
+    "filterArtikelNumer": {
+      "type": "string"
+    },
+    "serieNumer": {
+      "type": "integer"
+    },
+    "filterAntal": {
+      "type": "integer"
+    },
+    "oljeVolym": {
+      "type": "decimal"
+    },
+    "anoder": {
+      "type": "integer"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

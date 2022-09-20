@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hjms",
+  "info": {
+    "singularName": "hjm",
+    "pluralName": "hjms",
+    "displayName": "maskin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hjm": {
+      "type": "string"
+    },
+    "oljeFilterAntal": {
+      "type": "integer"
+    },
+    "OljeVolym": {
+      "type": "integer"
+    },
+    "racorFilterAntal": {
+      "type": "integer"
+    },
+    "finFilterAntal": {
+      "type": "integer"
+    },
+    "oljeFilterArtikelNumer": {
+      "type": "text"
+    },
+    "finFilterArtikelNumer": {
+      "type": "text"
+    },
+    "racorFilterArtikelNumer": {
+      "type": "text"
+    },
+    "OljeTyp": {
+      "type": "string"
+    },
+    "drivRem": {
+      "type": "string"
+    },
+    "lensRem": {
+      "type": "string"
+    },
+    "hjmSerieNumer": {
+      "type": "string"
+    },
+    "anods": {
+      "type": "string"
+    },
+    "glykolVolym": {
+      "type": "string"
+    },
+    "glykolNamn": {
+      "type": "string"
+    },
+    "luftFilterAntal": {
+      "type": "string"
+    },
+    "filterDuk": {
+      "type": "string"
+    },
+    "impelerLens": {
+      "type": "string"
+    },
+    "impelerSjoVattenHjm": {
+      "type": "string"
+    },
+    "impelerHmSjoVatten": {
+      "type": "string"
+    },
+    "ImpelerLensArtikelNumer": {
+      "type": "string"
+    },
+    "impelerHmArtikelNumer": {
+      "type": "string"
+    },
+    "impelerHjmArtikelNumer": {
+      "type": "string"
+    }
+  }
+}
