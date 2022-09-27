@@ -36,7 +36,6 @@ function MaskinSystem({data}) {
         {data.backslag.data.map((item)=> 
         <System
         item={item} 
-        onClick={() => router.push("/system")} 
         key={item.id} 
         />)}
       </div>
